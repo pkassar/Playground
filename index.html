@@ -12,212 +12,74 @@
 <body>
   <div class="page">
 
-
-    <div class="row">
-      <div class="column">
-        <h3>
-          SUPERFOOD SMOOTHIES
-        </h3>
-
-        <h4>COCO VERDE</h4>
-        <p>
-          kale, spinach, mango, banana,
-          dates, coconut oil, coconut water
-        </p>
-        <h4>BRADLEY'S CB&J </h4>
-        <p>
-          strawberry, banana, cashew butter,
-          dates, dragonfruit, house cashew milk
-        </p>
-
-        <h4>
-          SUPERMAN
-        </h4>
-        <p>
-          blueberries, goji berries, banana,
-          dates, dragonfruit, house almond milk
-        </p>
-        <h4>
-          THE BLAZE</h4>
-        <p>
-          strawberry, mango, banana, dates,
-          ginger, cayenne, house cashew milk
-        </p>
-        <h4>
-          TROPIC ENERGY
-        </h4>
-        <p>
-          mango, banana, dates,
-          dragonfruit, brewed guayusa
-        </p>
-        <h4> BASIL BOMB</h4>
-        <p>
-          strawberry, banana, basil,
-          dates, house almond milk
-        </p>
-        <h4>
-          BLENDED BREW </h4>
-        <p>
-          banana, cashew butter, -
-          cold brew coffee, cacao (optional)
-
-        </p>
-        <h4> CACAO MONSTER </h4>
-        <p>
-          banana, cashew butter,
-          cacao, house almond milk
-        </p>
-        <h4> KID DYNAMITE
-        </h4>
-        <p>
-          banana, dragonfruit, house cashew milk
-        </p>
+    <h1>Hello world </h1>
+    <button>here</button>
 
 
+    <!--
+      BOOTSTRAP NAV
+      https://getbootstrap.com/docs/5.0/components/navbar/
+    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">My Web App</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active Page</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page 2</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page 3</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container" style="margin-top:2em;">
+
+      <div>
+        <h1>Hello, world!</h1>
+
+
+        <button class="btn btn-primary" id="click-me">Click Me</button>
+        <p style="display:inline">Click Count: <span id="click-count">(loading)</span></p>
       </div>
 
-      <div class="column">
-        <h3>BOOSTERS</h3>
-        <div class="row">
+      <!--
+        BOOTSTRAP FORM
+        https://getbootstrap.com/docs/5.0/forms/overview/
+      -->
 
-          <div class="col2">
-            <ul>
-              <li>
-                ACAI
-              </li>
+      <form class="mx-auto" style="max-width: 350px; margin-top:2em;">
+        <h3>My Form</h3>
 
-              <li>
-                CHIA SEEDS </li>
-              <li>
-                HEMP PROTEIN
-              </li>
-              <li>
-                SPINACH
-              </li>
-              <li>
-                KALE
-              </li>
-            </ul>
-            <ul>
-          </div>
-          <div class="col2">
-            <ul>
-
-              <li>
-                CACAO
-              </li>
-              <li>
-                ALOE VERA
-              </li>
-              <li>
-                COCONUT OIL
-              </li>
-              <li>
-                FLAX SEEDS
-              </li>
-              <li>
-                GINGER
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-
-          <div class="center">
-            <ul>
-              <li> MATCHA</li>
-              <li> GOJI BERRIES</li>
-              <li> VEGAN PROBIOTIC</li>
-              <li>WHEATGRASS</li>
-              <li>MACA</li>
-            </ul>
-
-          </div>
+        <div class="mb-3">
+          <label for="my-email" class="form-label">Email address</label>
+          <input type="email" name="my_email" class="form-control" id="my-email" aria-describedby="emailHelp"
+            placeholder="hello@example.com">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
 
-
-        <div class="row">
-          <img class="center-image" src="images/icecream.png" alt="icecream mmm deliciosoo" />
-        </div>
-
-      </div>
+        <button type="submit" class="btn btn-primary" id="my-button">Submit</button>
+      </form>
 
 
-      <div class="column">
-        <h3>ACAI BOWLS & MORE</h3>
-        <h4>
-          ACAI SMOOTHIE BOWL
-        </h4>
-        <p>
-          Pick any smoothie to use as the base
-          for your bowl. Smoothie bowls come
-          blended with acai and topped with
-          fruit and our house granola
-        </p>
-        <h4>
-          GLUTEN-FREE OATS BOWL
-        </h4>
-        <p>
-          Oats soaked in our house cashew
-          milk, served cold, choice of
-          2 toppings included
-        </p>
-        <h4>
-          QUINOA BOWL
-        </h4>
-        <p>
-          Quinoa cooked in our house cashew
-          milk, served cold, choice of
-          2 toppings included
-        </p>
-        <h4>
-          COMBINATION BOWL
-        </h4>
-        <p>
-          Combination of oats and quinoa,
-          served cold, choice of
-          2 toppings included
-        </p>
-        <h4>
-          QUINOA BOWL
-        </h4>
-        <p>
-          A vegan take on Greek-style yogurt,
-          loaded with probiotics and topped
-          with berries and our house granola
-        </p>
-        <h4>
-          VANILLA CASHEW PARFAIT
-        </h4>
-        <p>
-          A vegan take on Greek-style yogurt,
-          loaded with probiotics and topped
-          with berries and our house granola
-        </p>
-        <h4>
-          CHIA SEED PUDDING
-        </h4>
-        <p>
-          Available in Strawberry, Chocolate,
-          Vanilla Goji, and Vanilla Matcha flavors
-        </p>
-        <h4>
-          HOUSE GRANOLA
-        </h4>
-        <p>
-          You asked for it, so we've made our
-          granola available in 16 oz containers
-        </p>
-
-      </div>
     </div>
   </div>
-  <!-- <footer>
-    <p>&copy; 2021 Sammy Student |
-      <a href="https://github.com/prof-rossetti/student-site">source code</a>
-    </p>
-  </footer> -->
-
   <script type="text/javascript">
     //
     // FYI: this is JavaScript!
@@ -225,6 +87,9 @@
     var myMessage = "Hello World"
     console.log(myMessage)
   </script>
+
+  <script src="index.js"></script>
+
 </body>
 
 </html>
